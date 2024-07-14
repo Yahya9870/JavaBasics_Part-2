@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Example {
-    public static int div(int a, int b) {
-        return a / b;
+    public static int sum(int a, int b) {
+        return a + b;
     }
 
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Example {
         int num1 = input.nextInt();
         System.out.print("Enter the second number:");
         int num2 = input.nextInt();
-        int result = div(num1, num2);
+        int result = sum(num1, num2);
         System.out.println("Result: " + result);
     }
 }
